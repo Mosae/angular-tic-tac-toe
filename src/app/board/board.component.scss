@@ -3,7 +3,16 @@ main {
   grid-template-columns: 200px 200px 200px;
   grid-gap: 0px;
 }
+
 app-square {
-  border: 1px gray solid;
+  border: 1px rgb(138, 138, 112) solid;
   height: 200px;
+}
+button.start__button {
+  margin-bottom: 3rem;
+}
+.game__details {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
